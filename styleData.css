@@ -1,0 +1,67 @@
+:root{
+     --tableTextHighlightingColor : brown; 
+     --tableBorderColor : rgba(77, 115, 218, 0.562);
+     --imgProflieColor : #5800FF ;
+     --boxProflieColor : #9BA3EB ;
+     /* --boxProflieColor : #db8e67 ; */
+     /* --imgProflieColor : #8350ed ;
+     --imgProflieColor : #8350ed ;
+     --imgProflieColor : #8350ed ; */
+}
+/* :root{
+     --tableTextHighlightingColor : brown; 
+     --tableBorderColor : rgba(218, 77, 77, 0.185);
+     --imgProflieColor : #8350ed ;
+     --boxProflieColor : #f5cb61 ;
+     --imgProflieColor : #8350ed ;
+     --imgProflieColor : #8350ed ;
+     --imgProflieColor : #8350ed ;
+} */
+
+
+
+.closebox{
+     /* display: ; */
+     /* top: 10px; */
+     position: absolute;
+     margin: 0px 0;
+     right:20px;
+}
+.change{
+     height: 100%;
+}
+.boxProfile{
+     /* height: 100%; */
+     margin : 0 0px ;
+     background-color: var(--boxProflieColor);
+     border-radius: 4px;
+     padding: 10px;
+}
+.boxMiniImg{
+     height: 80px;
+     width: 80px;
+     background-color: var(--imgProflieColor);
+     border-radius: 50%;
+     margin: 40px auto 30px auto;
+}
+.boxProfile div{
+     text-align: center;
+     font-size: 15px;
+     font-weight: 500;
+     color: rgb(44, 44, 44);
+}
+.highlight{
+     color: var(--tableTextHighlightingColor);
+}
+table{
+     border: 2px solid var(--tableBorderColor);
+}
+td{ 
+     border: 1px solid var(--tableBorderColor);
+}
+td{padding: 8px}
+
+
+
+
+
